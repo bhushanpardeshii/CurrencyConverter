@@ -3,7 +3,7 @@ import InputBox from './components/Input'
 import useCurrency from './customhooks/useCurrency'
 
 function App() {
-  const [amount, setAmount] = useState(0)
+  const [amount, setAmount] = useState("")
   const [from, setfrom] = useState("usd")
   const [to, setto] = useState("inr")
   const [convertedAmount, setconvertedAmount] = useState(0)
